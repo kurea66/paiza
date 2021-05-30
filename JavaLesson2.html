@@ -6,14 +6,28 @@
 		<title>JavaLesson2</title>
 	</head>
 	<body>
+		<div class="container">
 		<h1>JavaLesson2</h1>
-		<h2></h2>
-
+		<h2>HTML</h2>
+		<p><b>&lt;select name='age'&gt;</b>…年齢のプルダウンメニューを作る</p>
+		<p><b>&lt;option&gt;表示内容&lt;/option&gt;</b>…表示内容がプルダウンメニューに格納される</p>
 		<h2>単語、関数タグ等</h2>
+		<p><b>変数名.contains(データ)</b>…変数<b>(参照型)</b>の中にデータ(変数でも可)が含まれているか調べる。<b>戻り値true or false</b></p>
+		<p><b>Integer.toString(データ)</b>…参照型変数をString型に変換する。intはInteger,doubleはDouble等</p>
 		<p><b>Math.random()</b>・・・<b>0.0~1.0未満</b>でdouble型の乱数を取得できる。
 		<br>例えば10種類の場合<b>10倍して+1,int型にキャストする</b>
 		<br><code>(int)(Math.random()*10+1);</code></p>
-		<p>
+		<h3>Calendarクラス</h3>
+		<p><b>Calendar 変数名 = Calendar.getInstance();</b>でCalendarインスタンスが生成される。
+		<br><b>int 変数名= カレンダーの変数名.get(Calendar.YAER);</b>.getメソッドを使って()内のCalendarクラス定数を取得</p>
+		<dl>
+			<dt>Calendar.YEAR</dt>
+			<dd>年を返す</dd>
+			<dt>Calendar.MONTH</dt>
+			<dd>日付を返す。但し<b>0～11までのため+1が必要</b></dd>
+		</dl>
+		<p><b>Double.parseDouble(変数名)</b>…文字列をdouble型に変換する。</p>
 		<h2>特記</h2>
+		</div>
 	</body>
 </html>

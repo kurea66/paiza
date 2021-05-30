@@ -1,4 +1,12 @@
 b{
 	color:red;
 }
-
+.container{
+	margin:0 auto;
+	text-align:center;
+	background-color:#bbb;
+}
+dt{
+	font-size:20px;
+	color:blue;
+}
